@@ -1,0 +1,210 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins";
+  font-weight: bold;
+  color: whitesmoke;
+}
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  backdrop-filter: blur(3px);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.navbar a:hover {
+  font-size: 20px;
+  color: rgb(70,129,187);
+}
+
+.judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.image img {
+  width: 10em;
+  height: auto;
+  border-radius: 100%;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.biodata table {
+  margin: 5% auto;
+  border: 1;
+}
+.biodata th,
+td {
+  text-align: left;
+}
+
+
+.section1 {
+  height: 100vh;
+  padding: 60px 0;
+  background-image: url(bumi.png);
+  background-size: cover;
+  background-position: center;
+
+}
+.welcome{
+  display: flex;
+  justify-content: space-around;
+
+}
+.section1 h1 {
+  margin: 0 10%;
+  margin-top: 144px;
+  font-size: 60px;
+  width: 500px;
+}
+.text-hi{
+  margin-right: 10px;
+}
+
+.section1 h2 {
+  margin: 0 10%;
+  font-size: 20px;
+}
+.img-hi img{
+  margin: 0 10px;
+margin-top: 144px;
+  width: 15em;
+  border-radius: 100%;
+}
+.border {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.biodata {
+padding: 3% 0;
+word-spacing: 1px;
+margin:0 10px;
+}
+
+.btn a{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 10%;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+.btn a:hover{
+font-size: 20px;
+color: rgb(70,129,187);
+}
+
+.bx.bx-menu {
+  display: none;
+}
+.bx.bx-x {
+  display: none;
+}
+.section2 {
+  height: 100vh;
+  background-image: url(bulan.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 84px;
+}
+
+@media screen and (max-width: 768px) {
+  .bx.bx-menu {
+    display: block;
+    font-size: 40px;
+  }
+  .icon {
+    margin: 25px 85%;
+    cursor: pointer;
+  }
+  .menu {
+    display: block;
+    text-align: center;
+    margin: 0;
+    height: 0;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 20px;
+    opacity: 0;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .navbar li {
+    padding: 2em 0;
+  }
+  .navbar a {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .menu.buka {
+    height: 16.35em;
+    opacity: 100;
+  }
+  .bx.bx-x {
+    display: none;
+    font-size: 40px;
+  }
+  .bx.bx-menu.hide {
+    display: none;
+  }
+
+  .bx.bx-x.show {
+    display: block;
+  }
+
+.section1 h1{
+width: auto;
+  font-size: 40px;
+}
+.section1 h2{
+  font-size:16px;
+}
+.img-hi img{
+  width: 9em;
+  
+}
+.img-hi{
+
+  align-items: center;
+}
+.biodata table{
+  font-size: 13.3px;
+}
+}
