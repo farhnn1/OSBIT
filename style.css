@@ -73,12 +73,10 @@ td {
 .section1 {
   height: 100vh;
   padding: 60px 0;
-  background-image: url(bumi.png);
+  background-image: url(bulan.jpeg);
   background-size: cover;
   background-position: center;
-
-}
-.welcome{
+  background-attachment:fixed;
   display: flex;
   justify-content: space-around;
 
@@ -138,7 +136,7 @@ color: rgb(70,129,187);
 }
 .section2 {
   height: 100vh;
-  background-image: url(bulan.jpeg);
+  background-image: url(bumi.png);
   background-size: cover;
   background-position: center;
   padding-top: 84px;
